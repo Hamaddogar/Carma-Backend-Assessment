@@ -5,7 +5,7 @@ const client = require('./models/database.js')
 const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
-const actorDataSkelton = require('./models/actorDataModel');
+
 // useage
 app.use(cors());
 app.use(express.json({ limit: '200mb' }));

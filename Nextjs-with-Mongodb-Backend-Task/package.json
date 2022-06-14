@@ -1,0 +1,30 @@
+{
+  "name": "ducpham1000",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@stripe/react-stripe-js": "^1.6.0",
+    "@stripe/stripe-js": "^1.20.3",
+    "axios": "^0.24.0",
+    "cloudinary": "^1.27.1",
+    "formidable": "^2.0.1",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "next": "12.0.1",
+    "next-connect": "^0.11.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "sass": "^1.52.3",
+    "stripe": "^8.184.0"
+  },
+  "devDependencies": {
+    "eslint": "7",
+    "eslint-config-next": "12.0.1"
+  }
+}

@@ -1,0 +1,32 @@
+.root{
+    font-size: 1rem;
+    border-radius: 1em;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 1em;
+    &::after{
+        content: '';
+        border: 1px solid;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: inherit;
+    }
+    input{
+        display: none;
+        &:checked ~ span{
+            transform: scale(0.6);
+        }
+    }
+    span{
+        height: 1em;
+        display: block;
+        background: #46ffff;
+        border-radius: inherit;
+        transition: linear 0.1s transform;
+        transform: scale(0);
+    }
+}

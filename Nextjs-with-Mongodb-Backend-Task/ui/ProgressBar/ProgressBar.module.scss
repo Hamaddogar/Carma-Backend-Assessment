@@ -1,0 +1,18 @@
+.root {
+    position: relative;
+}
+.bar{
+    position: relative;
+    border-radius: 0.2rem;;
+    border: 1px solid #fd047c;
+    text-align: center;
+    padding: 0.1rem;
+}
+.progress{
+    position: absolute;
+    background: #fd047c;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 0.2rem;
+}

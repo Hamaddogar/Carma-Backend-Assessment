@@ -1,6 +1,7 @@
 ## For NExt js project just  use   --- 
+Project 1
 npm i
-Npm Run Dev    Project 1
+Npm Run Dev 
  Project 2
 
 ## 1 - Installing Libraries 

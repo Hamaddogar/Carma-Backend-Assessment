@@ -1,6 +1,6 @@
 ## For NExt js project just  use   --- 
-Project 1
-npm i
+
+npm i   ---
 Npm Run Dev 
  Project 2
 
